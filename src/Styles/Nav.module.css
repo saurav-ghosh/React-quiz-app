@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.952);
+    height: 6rem;
+    border-bottom: 0.1rem solid #e5e5e5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.navLeft img {
+    width: 3.5rem;
+    margin-right: 1rem;
+}
+
+.navLeft h3 {
+    font-size: 1.8rem;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+}
+
+.navRight p {
+    font-size: 1.7rem;
+}
+
+.navRight p:first-child {
+    margin-right: 1rem;
+}
+
+.navRight span {
+    margin-right: 0.7rem;
+    font-size: 2.5rem;
+}
+
+.navRight span:last-child {
+    margin-left: 0.7rem;
+}
+
+.userName {
+    font-size: 1.6rem !important;
+}

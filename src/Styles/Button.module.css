@@ -1,0 +1,22 @@
+.button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 5rem;
+    background: var(--successGreen);
+    padding: 0 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.button:hover {
+    background: var(--fontPrimary);
+}
+
+.button:hover span {
+    color: #fff;
+}

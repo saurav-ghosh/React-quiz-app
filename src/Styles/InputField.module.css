@@ -1,0 +1,18 @@
+.inputField {
+    background: #fff;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #e5e5e5;
+    border-radius: 0.5rem;
+}
+
+.inputField input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+}

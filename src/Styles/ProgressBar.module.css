@@ -1,0 +1,105 @@
+.progressBar {
+    width: 95%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5rem 1fr auto;
+    gap: 2rem;
+    background: #fff;
+    height: 6.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    border: 0.1rem solid #e5e5e5;
+}
+
+.backButton {
+    background: #47f5901c;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background: #47f5953a;
+}
+
+.rangeArea {
+    width: 100%;
+    position: relative;
+}
+
+.rangeBody {
+    width: 100%;
+    height: 0.5rem;
+    background: #e4e8ee;
+    border-radius: 2rem;
+}
+
+.progress {
+    height: 0.5rem;
+    background: var(--fontPrimary);
+    border-radius: 2rem;
+    position: relative;
+    transition: width 0.3s ease;
+}
+
+.progress::after {
+    content: "";
+    height: 1.3rem;
+    width: 1.3rem;
+    background: var(--fontPrimary);
+    position: absolute;
+    right: 0;
+    border-radius: 100%;
+    transform: translateY(-30%);
+    cursor: pointer;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: -6rem;
+    background: var(--fontPrimary);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tooltip::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--fontPrimary);
+    bottom: -0.5rem;
+    left: 50%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.next span:first-child {
+    margin-right: 0.8rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .next span:first-child {
+        display: none;
+    }
+}

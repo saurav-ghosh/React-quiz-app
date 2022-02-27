@@ -1,0 +1,10 @@
+.image {
+    width: 40%;
+    margin-right: 15rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .image {
+        display: none;
+    }
+}

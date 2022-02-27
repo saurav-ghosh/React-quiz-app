@@ -1,0 +1,35 @@
+.video {
+    background-color: #fff;
+    border: 0.1rem solid #e5e5e5;
+    padding: 1rem 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+
+.video:hover {
+    box-shadow: 0 0 1.5rem 0 #e5e5e5;
+}
+
+.desc {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    height: 4.1rem;
+    overflow: hidden;
+}
+
+.qMeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qMeta p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.video img {
+    width: 100%;
+    object-fit: cover;
+}
